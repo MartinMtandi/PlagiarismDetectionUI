@@ -3,16 +3,18 @@ import Navbar from '../components/Navbar'
 import Caption from '../components/Caption'
 import ScanSection from '../components/ScanSection'
 import Footer from '../components/Footer'
+import { useHistory } from 'react-router-dom'
 
 import Loader from '../images/loader.gif'
 
 function Home() {
-
+    const history = useHistory();
     const [loading, setLoading] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setLoading(true)
+        setLoading(true);
+        history.push("/plagiarism-results");
     }
 
     let content;

@@ -7,7 +7,7 @@ function ScanSection({handleSubmit}) {
             <div className="flex-grow-0">
                 <img className="h-64" src={Cite} alt="Plagiarism Illustration-01" />
             </div>
-            <div className="flex-grow">
+            <div className="flex-grow ml-3">
                 <div className="w-full border border-gray-400 rounded p-2">
                     <p className="text-gray-600 text-lg py-2 mx-2">Check your paper for plagiarism against billions of sources using CapStone Inc technology.</p>
                     <textarea className="w-full resize-none px-2 text-gray-800 focus:outline-none" rows="10" cols="50">
