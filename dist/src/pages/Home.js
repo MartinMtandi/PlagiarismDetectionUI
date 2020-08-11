@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Caption from '../components/Caption'
 import ScanSection from '../components/ScanSection'
