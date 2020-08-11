@@ -1,7 +1,7 @@
 import React from 'react'
 import Cite from '../images/EB-plagiarism-paper.png'
 
-function ScanSection() {
+function ScanSection({handleSubmit}) {
     return (
         <div className="flex items-center container mx-auto pb-16">
             <div className="flex-grow-0">
@@ -14,7 +14,7 @@ function ScanSection() {
                     
                     </textarea>
                     <div className="flex items-center">
-                        <button className="rounded block px-3 py-2 bg-teal-600 text-gray-100 hover:bg-teal-700">Check My Paper</button>
+                        <button onClick={handleSubmit} className="rounded block px-3 py-2 bg-teal-600 text-gray-100 hover:bg-teal-700">Check My Paper</button>
                         <div className="bg-grey-lighter mx-3">
                             <label className="flex items-center px-4 py-2 text-gray-100 bg-gray-700 rounded cursor-pointer">
                                 <svg className="w-6 h-6 text-gray-100" fill="#FFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
