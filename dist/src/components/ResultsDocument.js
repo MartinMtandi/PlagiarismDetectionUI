@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResultsDocument() {
     return (
-        <div className="px-24 py-8 bg-orange-100 rounded">
+        <div className="px-24 py-8 bg-red-100 rounded shadow-md">
             <p className="my-2">
                 What is Human-Computer Interaction (HCI)?
                 Human-computer interaction (HCI) is a multidisciplinary field of study focusing on the design of computer technology and, in particular, the interaction between humans (the users) and computers. While initially concerned with computers, HCI has since expanded to cover almost all forms of information technology design.
