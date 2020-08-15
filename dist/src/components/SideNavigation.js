@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup';
 
 function SideNavigation() {
     let data = [
@@ -45,7 +46,8 @@ function SideNavigation() {
                     <h1 className="text-gray-100 font-semibold">Similarity Index</h1>
                 </div>
                 <div className="py-3 text-center">
-                    <p className="text-5xl tracking-tight font-medium" style={{color: '#404041'}}> 23 %</p>
+                    <p className="text-5xl tracking-tight font-medium" style={{color: '#404041'}}> 
+                    <CountUp end={76} /> %</p>
                 </div>
                 <div>
                     {data.map((item, index) => {

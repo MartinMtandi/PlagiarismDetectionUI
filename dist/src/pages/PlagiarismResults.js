@@ -8,7 +8,7 @@ function PlagiarismResults() {
     return (
         <div>
             <Navbar />
-            <div className="grid grid-cols-8 container mx-auto py-16">
+            <div className="grid grid-cols-8 container mx-auto my-8">
                 <div className="col-span-5">
                     <ResultsDocument />
                 </div>
