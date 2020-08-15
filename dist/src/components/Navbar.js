@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../images/capstoneLogo.png'
 
 function Navbar() {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-white p-4 container mx-auto">
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <Link to="/">
-                    <img  src="https://static.grammarly.com/assets/files/3a89d404f9db7ffd42e5fa9b8cd7d93e/grammarly_logo.svg" alt="Logo" />
+                    <img className="h-16" src={Logo} alt="Logo" />
                 </Link>
             </div>
             <div className="block lg:hidden">
@@ -15,8 +16,8 @@ function Navbar() {
                 </button>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:justify-end lg:w-auto">
-                <button className="inline-block text-sm font-semibold uppercase px-4 py-2 leading-none border rounded text-gray-700 border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Login</button>
-                <button className="inline-block text-sm font-semibold uppercase px-4 py-2 leading-none hover:bg-teal-700 rounded text-gray-100 bg-teal-600 mt-4 lg:mt-0">Register</button>
+                <button className="inline-block text-sm font-semibold uppercase px-4 py-2 leading-none border rounded text-gray-700 border-white hover:border-transparent hover:text-orange-800 hover:bg-white mt-4 lg:mt-0">Login</button>
+                <button className="inline-block text-sm font-semibold uppercase px-4 py-2 leading-none hover:bg-orange-800 rounded text-gray-100 bg-orange-600 mt-4 lg:mt-0">Register</button>
             </div>
         </nav>
     )

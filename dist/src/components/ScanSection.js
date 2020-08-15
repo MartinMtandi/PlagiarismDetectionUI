@@ -14,7 +14,7 @@ function ScanSection({handleSubmit}) {
                     
                     </textarea>
                     <div className="flex items-center">
-                        <button onClick={handleSubmit} className="rounded block px-3 py-2 bg-teal-600 text-gray-100 hover:bg-teal-700">Check My Paper</button>
+                        <button onClick={handleSubmit} className="rounded block px-3 py-2 bg-orange-700 text-gray-100 hover:bg-orange-800">Check My Paper</button>
                         <div className="bg-grey-lighter mx-3">
                             <label className="flex items-center px-4 py-2 text-gray-100 bg-gray-700 rounded cursor-pointer">
                                 <svg className="w-6 h-6 text-gray-100" fill="#FFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
